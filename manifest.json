@@ -1,0 +1,23 @@
+  {
+    "name": "skip ad",
+    "description": "skip ad",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+     },
+    "commands": {
+      "run" : {
+          "suggested_key": {
+               "default": "Alt+Z" 
+          },
+          "description": "click skip ad button"
+      }
+    },
+    "permissions": [
+      "https://*/*",
+      "http://*/*",
+      "tabs"
+    ]
+  }
